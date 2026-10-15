@@ -1,0 +1,29 @@
+# Doxyfile -- Otari spellcasting library.
+#
+# Output: docs/html/index.html
+PROJECT_NAME            = "Menace Under Otari Engine"
+PROJECT_NUMBER          = 1.0.0
+PROJECT_BRIEF           = "Shared headers and the spellcasting contract"
+OUTPUT_DIRECTORY        = docs
+INPUT                   = include README_DOCS.md
+FILE_PATTERNS           = *.h *.md
+RECURSIVE               = YES
+USE_MDFILE_AS_MAINPAGE  = README_DOCS.md
+EXTRACT_ALL             = NO
+EXTRACT_PRIVATE         = NO
+EXTRACT_STATIC         = NO
+JAVADOC_AUTOBRIEF      = NO
+QT_AUTOBRIEF           = NO
+MARKDOWN_SUPPORT       = YES
+BUILTIN_STL_SUPPORT    = YES
+INLINE_INHERITED_MEMB  = NO
+SOURCE_BROWSER         = NO
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+SEARCHENGINE           = YES
+HAVE_DOT               = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+QUIET                  = YES
