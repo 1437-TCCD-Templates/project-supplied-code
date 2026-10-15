@@ -14,4 +14,4 @@ Shared code for the Menace Under Otari group project.
 3. Every point of damage goes through `Character::take_damage()`.
 4. A refused cast changes nothing.
 
-See `STUDENT_README.md` for the compile and link line.
+See `README.md` for the compile and link line.
